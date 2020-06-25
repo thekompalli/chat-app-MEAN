@@ -1,0 +1,85 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+html{font-size:16px}
+
+input{font-size:14px}
+
+body{line-height:1.4;color:#333;font-family:Helvetica,Arial,sans-serif}
+
+h1{margin-bottom:16px}
+
+label{color: dodgerblue; display:block;font-size:14px;margin-bottom:8px;color:#777}
+
+input{color: dodgerblue; border:1px solid #eee;padding:12px;outline:none}
+
+button{ cursor:pointer; padding:12px; background:none; border:2px solid dodgerblue; color: dodgerblue; font-size:16px; transition:background .3s ease;}
+
+button:hover{background:dodgerblue; color: white;}
+
+button:disabled{cursor:default;background:#7c5cbf94}
+
+.head{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.head h1{
+    font-size: 70px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+
+.head a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.head_span{
+    color: dodgerblue;
+}
+
+.centered-form{ background: linear-gradient(150deg,  rgb(23, 23, 26) 15%, #2a3147 70%, #363685 94%);width:100vw;height:100vh;display:flex;justify-content:center;align-items:center}
+
+.centered-form__box{ box-shadow:0 0 17px 1px #1D1F26; background:white; color: dodgerblue; padding:35px; width:300px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; }
+
+.centered-form button{width:100%}
+
+.centered-form input{margin-bottom:16px;width:100%}
+
+.centered-form label{color: dodgerblue;}
+
+.chat{display:flex}
+
+.chat__sidebar{height:100vh;color:dodgerblue;background: white;width:225px;overflow-y:auto}
+
+.chat__main{flex-grow:1;display:flex;flex-direction:column;max-height:100vh; background: linear-gradient(150deg,  rgb(23, 23, 26) 15%, #2a3147 70%, #363685 94%);}
+
+.chat__messages{flex-grow:1;padding:24px 24px 0;overflow-y:scroll; color: white;}
+
+.message{margin-bottom:16px;}
+
+.message__name{font-weight:600;font-size:14px;margin-right:8px}
+
+.message__meta{color:#777;font-size:14px}
+
+.message a{color:#0070CC}
+
+.compose{display:flex;flex-shrink:0;margin-top:16px;padding:24px}
+
+.compose form{display:flex;flex-grow:1;margin-right:16px}
+
+.compose input{ border:1px solid #eee; width:100%; padding:12px; margin:0 16px 0 0; flex-grow:1; border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; }
+
+.compose button{font-size:14px}
+
+.room-title{font-weight:400;font-size:22px;background:#2c2f3a;padding:24px}
+
+.list-title{font-weight:500;font-size:18px;margin-bottom:4px;padding:12px 24px 0}
+
+.users{list-style-type:none;font-weight:300;padding:12px 24px 0}
+
